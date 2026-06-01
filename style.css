@@ -5,7 +5,10 @@ padding: 0;
 
 .cabecalho {
 padding: 15px 25px;
-    }
+   display: flex; 
+justify-content: space-between;
+align-items: center;
+}
 
     .cartão {
 width: 260px;
