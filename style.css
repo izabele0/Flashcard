@@ -4,7 +4,7 @@ padding: 0;
 }
 
 .cabecalho {
-padding: 15px 25px;
+
    display: flex; 
 justify-content: space-between;
 align-items: center;
@@ -38,8 +38,21 @@ text-decoration: none;
 
 h1 {
 color: rgb(0, 0, 0);
+font-size: 24px;
 }
 
 footer{
     background-color: #000000;
+padding: 15px 25px;
+color: #000000;
+}
+.cartão-interno{
+
+    position: relative;
+}
+
+.cartão-frente, ,.cartão-verso {
+    position: absolute;
+border-radius: 12px;
+box-shadow: 0 6px 12px rgba( 0,0,0,0,15) ;
 }
