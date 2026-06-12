@@ -46,9 +46,14 @@ footer{
 padding: 15px 25px;
 color: #000000;
 }
-.cartão-interno{
 
+.cartão-interno{
     position: relative;
+transition: transform 0.8;
+}
+
+.cartao:hover .cartão-interno{
+    transform: rotate(180deg)
 }
 
 .cartão-frente, ,.cartão-verso {
