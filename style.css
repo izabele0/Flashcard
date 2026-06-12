@@ -72,5 +72,6 @@ transform: rotateY(180deg);
 }
 
 section {
-display: flex
+display: flex;
+gap: 20px;
 }
