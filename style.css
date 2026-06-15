@@ -13,7 +13,7 @@ background-color: rgb(19, 198, 204);
 
     .cartão {
 width: 260px;
-height: 208;
+height: 208px;
     }
 
     .cartão-imagem {
@@ -52,18 +52,18 @@ color: #000000;
 
 .cartão-interno{
     position: relative;
-transition: transform 0.8;
+transition: transform 0.8s;
 transform-style: preserve-3d;
 }
 
 .cartao:hover .cartão-interno{
-    transform: rotate(180deg)
+    transform: rotate(180deg);
 }
 
 .cartão-frente,.cartão-verso {
     position: absolute;
 border-radius: 12px;
-box-shadow: 0 6px 12px rgba( 0,0,0,0,15) ;
+box-shadow: 0 6px 12px rgba( 0,0,0,0.15) ;
 backface-visibility: hidden;
 }
 
