@@ -23,7 +23,7 @@ width: 100%;
     body {
      display: flex;
     flex-direction: column;
-    min-width: 100vh;
+    min-height: 100vh;
 background-color: #000000;
 }
 
